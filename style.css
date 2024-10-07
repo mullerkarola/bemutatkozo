@@ -6,11 +6,17 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 500px;
+    display: flex;
+    flex-direction: column;
 
-}header{
+}
+header{
     height: 118px;
     text-align: center;
-    
+img {
+        max-width: 100%;
+        height: auto;
+    }    
    
     
 }
@@ -113,3 +119,9 @@ font-size: 18px;
 #new-gif-btn:hover {
     background-color: #45a049;
 }
+@media (max-width: 600px
+        min-widht: 600px) {
+    body {
+        font-size: 14px;
+        flex-direction: row;
+    }}
